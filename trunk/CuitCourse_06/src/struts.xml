@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<package name="loginAction" extends="struts-default">
+		<action name="login" class="com.cuit.spring.action.UserAction">
+			<result name="success">/login/registerSuccess.jsp</result>
+			<result name="fail">/login/registerFail.jsp</result>
+			<result name="login">/login/login.jsp</result>
+			<result name="welcome">/login/welcome.jsp</result>
+			<result name="error">/login/error.jsp</result>
+		</action>
+	</package>
+
+	<package name="pageAction" extends="struts-default">
+		<action name="page" class="com.cuit.spring.action.PageAction">
+			<result name="pageuser">/page/pageuser.jsp</result>
+			<result name="error">/page/pageerror.jsp</result>
+		</action>
+	</package>
+ </struts>
+	

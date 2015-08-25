@@ -1,0 +1,39 @@
+@PAGE {
+	
+}
+div
+{
+	
+}
+table
+{
+	border:solid;
+	border-color:black;
+	border-width:1em;
+	border:medium;
+	padding:1em;
+	list-style: lower-roman;
+
+}
+tr {
+	border:solid;
+	border-color:black;
+	border-width:1em;
+	border:medium;
+
+	padding:1em;
+	
+}
+td{
+	border:solid;
+	border-color:black;
+	border-width:1em;
+	border:medium;
+
+	padding:1em;
+
+}
+font {
+    size: 12;
+    	
+}
